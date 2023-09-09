@@ -1,0 +1,33 @@
+.landingContainer {
+    text-align: start;
+    margin: 30px 20px;
+}
+
+.filterContainer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 30px;
+}
+
+.dateArrow {
+    width: 13px;
+}
+
+.datepicker:hover {
+    border-color: #d9d9d9;
+}
+
+.datepicker {
+    position: relative;
+    padding-right: 50px;
+}
+
+.datepicker:before {
+    content: "الفترة: "; 
+    position: absolute;
+    top: 56%;
+    right: 10px; 
+    transform: translateY(-50%);
+    color: #333; 
+}
